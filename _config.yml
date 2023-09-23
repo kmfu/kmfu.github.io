@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Kaiming (Kimi) Fu"
-  avatar           : "../assets/profile.png"
+  avatar           : "../images/Profile.png"
   bio              : "Ph.D. Candidate"
   employer         : # "University of California, Davis"
   location         : "Davis, CA"
