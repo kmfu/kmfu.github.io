@@ -83,12 +83,14 @@ author:
   name             : "Kaiming (Kimi) Fu"
   avatar           : "../assets/profile.png"
   bio              : "Ph.D. Candidate"
+  employer         : "University of California, Davis"
   location         : "Davis, CA"
-  employer         :
-  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=JL6SLsEAAAAJ&hl=en"
   email            : "kmfu@ucdavis.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=JL6SLsEAAAAJ&hl=en"
   researchgate     : "https://www.researchgate.net/profile/Kaiming-Fu-2"
+  github           : "https://github.com/kmfu"
+  linkedin         : "https://www.linkedin.com/in/kmfu"
+  pubmed           : 
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +98,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/kmfu"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/kmfu"
-  orcid            : # "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : # "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
