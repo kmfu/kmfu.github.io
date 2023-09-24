@@ -7,11 +7,14 @@ redirect_from:
   - /resume
 ---
 
+<a class="btn content-download button-main button-scheme" href="assets/KaimingFu_Resume.pdf" download="KaimingFu_Resume" >Download CV</a>
+
 Education
 ------
 * Ph.D. in Electrical and Computer Engineering, University of California, Davis, 2024 (expected)
 * Double-Major M.S. in Statistic, University of California, Davis, 2022
 * M.S. in Mechanical Engineering, Purdue University, West Lafayette, 2019
+
 
 Work experience
 ------
@@ -28,9 +31,10 @@ Work experience
 
 Skills
 ------
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: C++, Python, R, Matlab.
+* Familiar with: 
+  * CUDA
+  * Pytorch
+  * Scikit-Learn
+  * TensorFlow
+  * Neural Networks (YOLO, CNN, Fast RCNN, Faster RCNN, ResNet)
