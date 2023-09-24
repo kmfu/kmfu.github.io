@@ -23,7 +23,6 @@ Education
   * Double-Major M.S in Statistic, 2022
 * M.S. in Mechanical Engineering, Purdue University, West Lafayette, 2019
 
-
 Work experience
 ------
 * Summer 2015: Research Assistant
