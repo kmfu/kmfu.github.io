@@ -11,7 +11,7 @@ redirect_from:
 Kaiming (Kimi) Fu is a doctoral student in the Electrical and Computer Engineering at the University of California, Davis. He is working with guidance from Prof. [Stavros G. Vougioukas](https://faculty.engineering.ucdavis.edu/vougioukas/research/lab-members/) and Prof. [Brian N. Bailey](https://baileylab.ucdavis.edu/people/index.html). Before that, He received M.S degree in Mechanical Engineering from Purdue University in West Lafayette, Indiana (2019). His research is interdisciplinary, incorporating his expertise in engineering and computer science to focus on agricultural robotics and computer vision. His research interest includes:
 * Simulation Design and Optimization for Robotics.
 * Interference Study based on CUDA and Voxel.
-* Computer Vision through Deep Learning Enhanced by Synthetic Data.
+* Object Detection through Deep Learning Enhanced by Multispectral Synthetic Data.
 * Various Application of [Helios](https://baileylab.ucdavis.edu/software/helios/index.html), a versatile modeling framework.
 
 
