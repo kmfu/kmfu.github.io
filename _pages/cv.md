@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
 
-<a class="btn content-download button-main button-scheme" href="assets/KaimingFu_Resume.pdf" download="KaimingFu_Resume" >Download CV</a>
 
 Education
 ------
