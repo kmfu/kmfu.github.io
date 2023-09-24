@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Kaiming Fu, Ph.D. Candidate"
+title: "Kaiming Fu"
 permalink: /cv/
 author_profile: true
 redirect_from:
