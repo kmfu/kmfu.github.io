@@ -8,8 +8,6 @@ redirect_from:
 ---
 {% include base_path %}
 
-
-
 Education
 ------
 * Ph.D in Electrical and Computer Engineering, University of California, Davis, 2024 (expected)
