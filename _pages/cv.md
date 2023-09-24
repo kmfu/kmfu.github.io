@@ -10,7 +10,7 @@ redirect_from:
 Education
 ------
 * Ph.D in Electrical and Computer Engineering, University of California, Davis, 2024 (expected)
-* Double-Major M.S in Statistic, University of California, Davis, 2022
+* Double-Major M.S. in Statistic, University of California, Davis, 2022
 * M.S. in Mechanical Engineering, Purdue University, West Lafayette, 2019
 
 Work experience
