@@ -21,7 +21,7 @@ Ongoing Research Projects
   * We are currently building model-based design tools to enable researchers and developers to investigate the interrelationships among orchard layout, tree canopy geometry and spatial fruit distribution, harvester design, and worker activities. Such tools can accelerate the development of next-generation orchard mechanization and automation systems.
   
 * Walnut Detection Through Deep Learning Enhanced by Multispectral Synthetic Images
-  * The unique characteristics of walnut trees, characterized by their closely resembling shapes, colors, and textures between the walnuts and leaves, present a formidable challenge in precisely distinguishing between them during the annotation process. In this study, We present a novel approach to improve walnut detection efficiency, utilizing YOLOv8 trained on an enriched image set that incorporates both real and synthetic RGB and NIR images through multispectral synthetic images.
+  * We are working on the improvement of walnut detection efficiency, utilizing YOLOv8 trained on an enriched image set that incorporates both real and synthetic RGB and NIR images through multispectral synthetic images. The unique characteristics of walnut trees, characterized by their closely resembling shapes, colors, and textures between the walnuts and leaves, present a formidable challenge in precisely distinguishing between them during the annotation process.
 
 Challenges
 ======
