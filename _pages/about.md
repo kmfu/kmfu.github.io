@@ -22,7 +22,16 @@ Ongoing Research Projects
 1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
 1. Check status by going to the repository settings, in the "GitHub pages" section
 
+
 Challenges
 ======
 
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Annual Farm Robotics Challenge
+------
+
+The challenge is being sponsored by [The VINE](https://ucanr.edu/News/?blogtag=The%20VINE), an initiative of the University of California Agriculture and Natural Resources focused on agricultural innovation, in partnership with the [AI Institute for Next Generation Food Systems (AIFS)](https://www.aifs.ucdavis.edu)_, [Farm-ng robotics company](https://farm-ng.com/pages/about-farm-ng), and the [Fresno-Merced Future of Food (F3) Innovation coalition](https://www.eda.gov/funding/programs/american-rescue-plan/build-back-better/finalists/central-valley-community-foundation). The Farm Robotics Challenge is open to any university or college in the U.S. Student teams will be asked to address a production farming topic on any crop or size of farm, with a desired focus on small farms, by automating an essential farm-related task using the farm-ng robotics platform. Each campus will need to purchase a farm-ng robot or borrow one to participate in the challenge.
+
+
+
+"Inceptio-Tsinghua AIR Cup” Autonomous Driving Challenge
+------
