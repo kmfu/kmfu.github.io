@@ -8,19 +8,12 @@ redirect_from:
 ---
 {% include base_path %}
 
-Skills
-------
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
 
 Education
 ------
 * Ph.D in Electrical and Computer Engineering, University of California, Davis, 2024 (expected)
-  * Double-Major M.S in Statistic, 2022
+* Double-Major M.S in Statistic, University of California, Davis,2022
 * M.S. in Mechanical Engineering, Purdue University, West Lafayette, 2019
 
 Work experience
@@ -36,3 +29,11 @@ Work experience
   * Supervisor: Professor Hub
   
 
+Skills
+------
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
