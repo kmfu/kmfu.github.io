@@ -29,6 +29,7 @@ Research experience
   * Developed a YOLOv8 model for crop detection, leveraging multispectral imagery to surpass the constraints of using only RGB images.
   * Improved F1 score with synthetic data: RGB detection (0.806); NIR detection(0.745); Multispectral detection(0.863).
 
+
 Projects
 ------
 * Annual Farm Robotics Challenge
@@ -40,13 +41,22 @@ Projects
   * 1st Prize Winner among 1067 Teams
     * Utilized Imitative learning to generate training data for decision-making planning algorithms, employing an XBox controller to ensure accurate self-driving track creation for semi-trucks and sedans to reach target destinations.
     * Developed an efficient decision-making algorithm for self-driving semi-trucks and sedans to navigate complex urban and highway environments collision-free.
+   
+* Fine-Grained Classification in Plant Pathology
+  * IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) workshop
+    * Preprocessed imbalanced dataset using a data sampler, employed ResNet50 as the baseline, achieving an F1 score of 0.70.
+    * Created an Attention Learning Network for accurate part localization within the classification pipeline.
+    * Implemented a Generative Data Augmentation model for image augmentation and training dataset balance.
+    * Improved F1 score to 0.874 using a UNet-ResNet generator and a DenseNet discriminator.
+
  
 Skills
 ------
 * Programming Languages: C++, Python, R, Matlab.
-* Familiar with: 
+* Familiar with:
   * CUDA
   * Pytorch
   * Scikit-Learn
   * TensorFlow
   * Neural Networks (YOLO, CNN, Fast RCNN, Faster RCNN, ResNet)
+
