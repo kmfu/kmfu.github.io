@@ -12,6 +12,8 @@ Kaiming (Kimi) Fu is a doctoral student in the Electrical and Computer Engineeri
 * Enhancing Object Detection in Complex Lighting with Multispectral Synthetic Data and Deep Learning.
 * Exploring Diverse Applications of [Helios](https://baileylab.ucdavis.edu/software/helios/index.html) (A Versatile Modeling Framework).
 
+
+
 Ongoing Research Projects
 ======
 * Model-based Design of Mechanized Orchard-harvesting Systems
@@ -19,8 +21,11 @@ Ongoing Research Projects
 * Walnut Detection Through Deep Learning Enhanced by Multispectral Synthetic Images
   * We are using YOLOv8 to detect walnuts, trained on a enriched dataset that includes both real and synthetic RGB and NIR images. The challenge lies in accurately distinguishing between walnuts and leaves due to their similar shapes, colors, and textures.
 
+
+
 Challenges
 ======
+
 Annual Farm Robotics Challenge
 ------
 * Team Leader. Collabrating with Dr. [Juan Villacrés](https://www.linkedin.com/in/juan-villacrés-054b71169/) and Dr. [Guilherme De Moura Araujo](https://www.linkedin.com/in/guilhermedemouraa/) on Supervising.
