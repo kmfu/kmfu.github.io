@@ -53,9 +53,10 @@ Projects
 Skills
 ------
 * Programming Languages: C++, Python, R, Matlab.
-* Familiar with: 
+* Familiar with:
+  * Neural Networks (YOLO, CNN, Fast RCNN, Faster RCNN, ResNet)
   * CUDA
   * Pytorch
   * Scikit-Learn
   * TensorFlow
-  * Neural Networks (YOLO, CNN, Fast RCNN, Faster RCNN, ResNet)
+
