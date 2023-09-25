@@ -16,7 +16,7 @@ Kaiming (Kimi) Fu is a doctoral student in the Electrical and Computer Engineeri
 
 Ongoing Research Projects
 ======
-* Model-based design of mechanized orchard-harvesting systems
+* Model-based Design of Mechanized Orchard-harvesting Systems
   * We are currently building model-based design tools to enable researchers and developers to investigate the interrelationships among orchard layout, tree canopy geometry and spatial fruit distribution, harvester design, and worker activities. Such tools can accelerate the development of next-generation orchard mechanization and automation systems.
   
 * Walnut Detection Through Deep Learning Enhanced by Multispectral Synthetic Images
