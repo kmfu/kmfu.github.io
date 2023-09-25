@@ -21,7 +21,7 @@ Ongoing Research Projects
 
 Challenges
 ======
-
+------
 Annual Farm Robotics Challenge
 ------
 * Team Leader, Collabrating with Dr. [Juan Villacrés](https://www.linkedin.com/in/juan-villacrés-054b71169/) and Dr. [Guilherme De Moura Araujo](https://www.linkedin.com/in/guilhermedemouraa/) on Supervising.
