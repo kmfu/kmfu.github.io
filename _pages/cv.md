@@ -46,7 +46,7 @@ Projects
 Skills
 ------
 * Programming Languages: C++, Python, R, Matlab.
-* Familiar with:
+* Tools:
   * CUDA
   * Pytorch
   * Scikit-Learn
