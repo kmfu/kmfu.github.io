@@ -4,14 +4,14 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #  url: /publications/
 
-  - title: "Presentations"
-    url: /talks/
+  # - title: "Presentations"
+  #  url: /talks/
 
-  - title: "Posts"
-    url: /year-archive/
+  # - title: "Posts"
+  #  url: /year-archive/
 
   # - title: "Teaching"
   #  url: /teaching/    
