@@ -10,8 +10,8 @@ redirect_from:
 
 Kaiming (Kimi) Fu is a doctoral student in the Electrical and Computer Engineering at the University of California, Davis. He is working with guidance from Prof. [Stavros G. Vougioukas](https://faculty.engineering.ucdavis.edu/vougioukas/research/lab-members/) and Prof. [Brian N. Bailey](https://baileylab.ucdavis.edu/people/index.html). Before that, He received M.S degree in Mechanical Engineering from Purdue University in West Lafayette, Indiana (2019). His research is interdisciplinary, incorporating his expertise in engineering and computer science to focus on agricultural robotics and computer vision. His research interest includes:
 * Simulation Design and Optimization for Robotics.
-* Interference Study based on CUDA and Voxel.
-* Object Detection through Deep Learning Enhanced by Multispectral Synthetic Data.
+* Conducting Interference Analysis with CUDA and Voxel Technology.
+* Enhancing Object Detection in Complex Lighting with Multispectral Synthetic Data and Deep Learning.
 * Various Application of [Helios](https://baileylab.ucdavis.edu/software/helios/index.html), a versatile modeling framework.
 
 
@@ -21,7 +21,8 @@ Ongoing Research Projects
   * We are currently building model-based design tools to enable researchers and developers to investigate the interrelationships among orchard layout, tree canopy geometry and spatial fruit distribution, harvester design, and worker activities. Such tools can accelerate the development of next-generation orchard mechanization and automation systems.
   
 * Walnut Detection Through Deep Learning Enhanced by Multispectral Synthetic Images
-  * We are working on the improvement of walnut detection efficiency, utilizing YOLOv8 trained on an enriched image set that incorporates both real and synthetic RGB and NIR images through multispectral synthetic images. The unique characteristics of walnut trees, characterized by their closely resembling shapes, colors, and textures between the walnuts and leaves, present a formidable challenge in precisely distinguishing between them during the annotation process.
+  * We are using YOLOv8 to detect walnuts, trained on a enriched dataset that includes both real and synthetic RGB and NIR images. The challenge lies in accurately distinguishing between walnuts and leaves due to their similar shapes, colors, and textures.
+
 
 Challenges
 ======
