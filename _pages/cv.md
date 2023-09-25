@@ -16,19 +16,31 @@ Education
 * M.S. in Mechanical Engineering, Purdue University, West Lafayette, 2019
 
 
-Work experience
+Research experience
 ------
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Simulation Design and Optimization of Agricultural Robotics
+  * Designed a robot-tree-fruit simulation system, including the development of digital models and the research on object interference.
+  * Employed RGB imagery, LiDAR, and IMU data for accurate fruit canopy localization, enhancing simulation realism.
+  * Developed a dynamic harvesting system based on visible fruit distributions obtained from the in-field data acquisition.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* Crop Counting Through Deep Learning Enhanced By Synthetic Images
+  * Created a dataset of RGB and NIR walnut images, manually annotated, and sourced from a multispectral camera.
+  * Generated synthetic images to enhance the walnut image set, addressing limitations arising from specific lighting conditions.
+  * Developed a YOLOv8 model for crop detection, leveraging multispectral imagery to surpass the constraints of using only RGB images.
+  * Improved F1 score with synthetic data: RGB detection (0.806); NIR detection(0.745); Multispectral detection(0.863).
 
+Projects
+------
+* Annual Farm Robotics Challenge
+  * Team Leader. Grand Prize Winner among National-wide Universities and Colleges
+    * Designed a real-time harvesting assistant robot that autonomously follows human operators and transports harvested crops to storage, eliminating manual tractor transport.
+    * Enhanced robot’s ability to monitor and offer real-time feedback on worker posture using a self-designed Human Monitoring System.
+
+* ”Inceptio-Tsinghua AIR Cup” Autonomous Driving Challenge
+  * 1st Prize Winner among 1067 Teams
+    * Utilized Imitative learning to generate training data for decision-making planning algorithms, employing an XBox controller to ensure accurate self-driving track creation for semi-trucks and sedans to reach target destinations.
+    * Developed an efficient decision-making algorithm for self-driving semi-trucks and sedans to navigate complex urban and highway environments collision-free.
+ 
 Skills
 ------
 * Programming Languages: C++, Python, R, Matlab.
