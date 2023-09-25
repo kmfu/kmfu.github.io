@@ -29,6 +29,17 @@ Research experience
   * Developed a YOLOv8 model for crop detection, leveraging multispectral imagery to surpass the constraints of using only RGB images.
   * Improved F1 score with synthetic data: RGB detection (0.806); NIR detection(0.745); Multispectral detection(0.863).
 
+Projects
+------
+* Annual Farm Robotics Challenge
+  * Team Leader. Grand Prize Winner among National-wide Universities and Colleges
+    * Designed a real-time harvesting assistant robot that autonomously follows human operators and transports harvested crops to storage, eliminating manual tractor transport.
+    * Enhanced robot’s ability to monitor and offer real-time feedback on worker posture using a self-designed Human Monitoring System.
+
+* ”Inceptio-Tsinghua AIR Cup” Autonomous Driving Challenge
+  * 1st Prize Winner among 1067 Teams
+    * Utilized Imitative learning to generate training data for decision-making planning algorithms, employing an XBox controller to ensure accurate self-driving track creation for semi-trucks and sedans to reach target destinations.
+    * Developed an efficient decision-making algorithm for self-driving semi-trucks and sedans to navigate complex urban and highway environments collision-free.
  
 Skills
 ------
