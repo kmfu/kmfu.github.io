@@ -18,16 +18,10 @@ Education
 
 Work experience
 ------
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Sep 2019 - Present: Graduate Research Assistant
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* Sep 2019 - May 2020: Graduate Teaching Assistant
+
 
 Skills
 ------
