@@ -16,13 +16,20 @@ Education
 * M.S. in Mechanical Engineering, Purdue University, West Lafayette, 2019
 
 
-Work experience
+Research experience
 ------
-* Sep 2019 - Present: Graduate Research Assistant
+* Simulation Design and Optimization of Agricultural Robotics
+  * Designed a robot-tree-fruit simulation system, including the development of digital models and the research on object interference.
+  * Employed RGB imagery, LiDAR, and IMU data for accurate fruit canopy localization, enhancing simulation realism.
+  * Developed a dynamic harvesting system based on visible fruit distributions obtained from the in-field data acquisition.
 
-* Sep 2019 - May 2020: Graduate Teaching Assistant
+* Crop Counting Through Deep Learning Enhanced By Synthetic Images
+  * Created a dataset of RGB and NIR walnut images, manually annotated, and sourced from a multispectral camera.
+  * Generated synthetic images to enhance the walnut image set, addressing limitations arising from specific lighting conditions.
+  * Developed a YOLOv8 model for crop detection, leveraging multispectral imagery to surpass the constraints of using only RGB images.
+  * Improved F1 score with synthetic data: RGB detection (0.806); NIR detection(0.745); Multispectral detection(0.863).
 
-
+ 
 Skills
 ------
 * Programming Languages: C++, Python, R, Matlab.
