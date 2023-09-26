@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Kaiming Fu"
-excerpt: "About me"
+excerpt: "Kaiming Fu"
 author_profile: true
 redirect_from: 
   - /about/
