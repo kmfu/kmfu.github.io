@@ -82,8 +82,8 @@ analytics:
 author:
   # name             : "Kaiming (Kimi) Fu"
   avatar           : "../images/profile.png"
-  # bio              : "Ph.D. Candidate"
-  employer         : # "University of California, Davis"
+  bio              : "Ph.D. Candidate"
+  employer         : "UC, Davis"
   location         : "Davis, CA"
   email            : "kmfu@ucdavis.edu"
   googlescholar    : "https://scholar.google.com/citations?user=JL6SLsEAAAAJ&hl=en"
