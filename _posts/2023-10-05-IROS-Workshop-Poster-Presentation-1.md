@@ -1,7 +1,7 @@
 ---
 title: '2023 Poster Presentation at ASABE Annual International Meeting'
-date: 2023-09-19
-permalink: 2023/iros_2023_worshop/fruit_distribution
+date: 2023-10-05
+permalink: 2023/iros_2023_worshop/fruit_distribution_study
 # tags:
 #  - Basket Design and Weighing System
 #  - Human Following and Monitoring System
@@ -10,7 +10,7 @@ permalink: 2023/iros_2023_worshop/fruit_distribution
 
 ### Topic: Fusion-Driven Tree Reconstruction and Fruit Localization_Advancing Precision in Agriculture
 
-<img src="../images/Post_Images/2023/IROS_2023/Fusion-Driven Tree Reconstruction and Fruit Localization_Advancing Precision in Agriculture.png"
+<img src="../images/Post_Images/2023/IROS_2023/Fruit_Distribution_Study.png"
      alt="2022_ASABE_Banner.png"
      style="float: left; margin-bottom: 25px;" />
 

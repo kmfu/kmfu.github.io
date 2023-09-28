@@ -8,7 +8,7 @@ permalink: 2022/asabe_2022
 #  - Unloading and Return System
 ---
 
-Topic: HUMAN-FOLLOWING ROBOT FOR CROP TRANSPORTATION
+### Topic: Human-following Robot for Crop Transportation
 -----
 
 <img src="../images/Post_Images/2022/ASABE_2022/2022_ASABE_Banner.png"
