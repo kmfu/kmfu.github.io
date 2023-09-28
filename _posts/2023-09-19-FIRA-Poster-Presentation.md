@@ -8,7 +8,7 @@ permalink: 2023/fira_2023
 #  - Unloading and Return System
 ---
 
-<img src="../images/PostImages/2023/FIRA_2023/FIRA_2023_Poster.png"
+<img src="../images/Post_Images/2023/FIRA_2023/FIRA_2023_Poster.png"
      alt="2022_ASABE_Banner.png"
      style="float: left; margin-bottom: 25px;" />
 
