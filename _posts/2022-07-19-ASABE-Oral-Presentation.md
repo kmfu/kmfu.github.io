@@ -8,8 +8,8 @@ permalink: /posts/2022/asabe_2022
 #  - Unloading and Return System
 ---
 
-<img src="../images/Post Images/2022/ASABE_2022/2022_ASABE_Banner.png"
+<img src="2022/ASABE_2022/2022_ASABE_Banner.png"
      alt="2022_ASABE_Banner.png"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-bottom: 10px;" />
 
 
