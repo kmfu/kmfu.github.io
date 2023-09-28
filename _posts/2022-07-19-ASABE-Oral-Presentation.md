@@ -1,7 +1,7 @@
 ---
 title: '2022 Oral Presentation at ASABE Annual International Meeting'
 date: 2022-07-19
-permalink: 2022/asabe_2022
+permalink: asabe_2022
 # tags:
 #  - Basket Design and Weighing System
 #  - Human Following and Monitoring System

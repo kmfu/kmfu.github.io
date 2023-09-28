@@ -1,7 +1,7 @@
 ---
 title: '2023 Poster Presentation at ASABE Annual International Meeting'
 date: 2023-10-05
-permalink: 2023/iros_2023_worshop/fruit_distribution_study
+permalink: iros_2023_worshop/fruit_distribution_study
 # tags:
 #  - Basket Design and Weighing System
 #  - Human Following and Monitoring System

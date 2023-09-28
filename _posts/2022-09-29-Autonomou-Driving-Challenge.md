@@ -1,7 +1,7 @@
 ---
 title: '“2022 Inceptio-Tsinghua AIR Cup” Autonomous Driving Challenge'
 date: 2022-09-29
-permalink: 2022/autonomous_driving_challenge
+permalink: autonomous_driving_challenge_2022
 # tags:
 #  - Basket Design and Weighing System
 #  - Human Following and Monitoring System
