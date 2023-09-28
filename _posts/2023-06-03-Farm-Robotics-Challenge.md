@@ -1,5 +1,5 @@
 ---
-title: 'Annual Farm Robotics Challenge'
+title: '2023 Annual Farm Robotics Challenge'
 date: 2023-06-03
 permalink: 2023/farm_robotics_challenge
 # tags:
