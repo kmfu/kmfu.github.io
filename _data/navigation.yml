@@ -10,8 +10,8 @@ main:
   # - title: "Presentations"
   #  url: /talks/
 
-  # - title: "Posts"
-  #  url: /year-archive/
+  - title: "Posts"
+    url: /year-archive/
 
   # - title: "Teaching"
   #  url: /teaching/    
