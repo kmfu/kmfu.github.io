@@ -8,7 +8,7 @@ permalink: 2023/iros_2023_worshop/synthetic_data
 #  - Unloading and Return System
 ---
 
-## Topic: Walnut Detection Through Deep Learning Enhanced by Multispectral Synthetic Images
+### Topic: Walnut Detection Through Deep Learning Enhanced by Multispectral Synthetic Images
 
 <img src="../images/Post_Images/2023/IROS_2023/Walnut Detection Through Deep Learning Enhanced by Multispectral Synthetic Images.png"
      alt="2022_ASABE_Banner.png"
