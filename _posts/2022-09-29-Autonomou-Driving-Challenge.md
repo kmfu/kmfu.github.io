@@ -1,7 +1,7 @@
 ---
-title: 'Annual Farm Robotics Challenge'
-date: 2023-06-03
-permalink: /posts/2023/farm_robotics_challenge
+title: '“Inceptio-Tsinghua AIR Cup” Autonomous Driving Challenge'
+date: 2022-09-29
+permalink: /posts/2022/autonomous_driving_challenge
 # tags:
 #  - Basket Design and Weighing System
 #  - Human Following and Monitoring System
