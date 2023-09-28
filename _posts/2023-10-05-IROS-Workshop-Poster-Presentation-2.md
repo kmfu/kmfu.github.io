@@ -1,5 +1,5 @@
 ---
-title: '2023 Poster Presentation at ASABE Annual International Meeting'
+title: '2023 Poster Presentation at IEEE/RSI International Conference on Intelligent Robots and Systems (IROS) Workshop'
 date: 2023-10-05
 permalink: iros_2023_worshop/synthetic_data_study
 # tags:
