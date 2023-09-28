@@ -31,4 +31,4 @@ Challenges
 
 * ["Inceptio-Tsinghua AIR Cup” Autonomous Driving Challenge](/posts/2022/autonomous_driving_challenge)
   * [1st Prize Winner](https://min.news/en/tech/d0f74264edf0ba9c211e13b5dcb468f8.html) among 1067 teams.
-  * Brief Intro: the competition provides scenarios and data for high-speed heavy trucks and complex urban roads, while the data for the competition questions are all derived from real scenarios.
+  * Brief Intro: Autonomous Driving Challenge provides scenarios and data for high-speed heavy trucks and complex urban roads, while the data for the competition questions are all derived from real scenarios. The goal is to develope an efficient decision-making algorithm for self-driving semi-trucks and sedans to navigate complex urban and highway environments collision-free.

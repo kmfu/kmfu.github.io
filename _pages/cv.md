@@ -34,8 +34,12 @@ Projects
     * Enhanced robot’s ability to monitor and offer real-time feedback on worker posture using a self-designed Human Monitoring System.
 * ”Inceptio-Tsinghua AIR Cup” Autonomous Driving Challenge
   * 1st Prize Winner among 1067 Teams
-    * Utilized Imitative learning to generate training data for decision-making planning algorithms, employing an XBox controller to ensure accurate self-driving track creation for semi-trucks and sedans to reach target destinations.
-    * Developed an efficient decision-making algorithm for self-driving semi-trucks and sedans to navigate complex urban and highway environments collision-free.  
+    * Utilized an Xbox controller to collect driving data for training a neural network with Imitative Learning, collaborating on semi-trailer acceleration control with the LCA lane keeping system.
+    * Employed a range of advanced problem-solving techniques, including two-way search, greedy algorithms, space pruning, convex optimization, and the deep reinforcement learning PPO algorithm.
+
+
+The comprehensive solution uses the 
+
 * Fine-Grained Classification in Plant Pathology
   * IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) workshop
     * Preprocessed imbalanced dataset using a data sampler, employed ResNet50 as the baseline, achieving an F1 score of 0.70.
