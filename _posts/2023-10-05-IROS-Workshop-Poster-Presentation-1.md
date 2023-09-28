@@ -11,7 +11,7 @@ permalink: 2023/iros_2023_worshop/fruit_distribution_study
 ### Topic: Fusion-Driven Tree Reconstruction and Fruit Localization_Advancing Precision in Agriculture
 
 <img src="../images/Post_Images/2023/IROS_2023/Fruit_Distribution_Study.png"
-     alt="2022_ASABE_Banner.png"
+     alt="Fruit_Distribution_Study.png"
      style="float: left; margin-bottom: 25px;" />
 
 

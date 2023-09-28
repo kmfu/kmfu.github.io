@@ -11,7 +11,7 @@ permalink: 2023/iros_2023_worshop/synthetic_data_study
 ### Topic: Walnut Detection Through Deep Learning Enhanced by Multispectral Synthetic Images
 
 <img src="../images/Post_Images/2023/IROS_2023/Synthetic_Data_Study.png"
-     alt="2022_ASABE_Banner.png"
+     alt="Synthetic_Data_Study.png"
      style="float: left; margin-bottom: 25px;" />
 
 

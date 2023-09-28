@@ -8,9 +8,11 @@ permalink: 2023/fira_2023
 #  - Unloading and Return System
 ---
 
+### Topic: Human-following Robot for Crop Transportation
+
 <img src="../images/Post_Images/2023/FIRA_2023/FIRA_2023_Poster.png"
-     alt="2022_ASABE_Banner.png"
-     style="float: left; margin-bottom: 25px;" />
+     alt="FIRA_2023_Poster.png"
+     style="float: left; margin-bottom: 10px;" />
 
 
 
