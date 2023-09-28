@@ -1,7 +1,7 @@
 ---
 title: '2023 Poster Presentation at ASABE Annual International Meeting'
 date: 2023-09-19
-permalink: 2023/fira_2023
+permalink: 2023/iros_2023_worshop/synthetic_data
 # tags:
 #  - Basket Design and Weighing System
 #  - Human Following and Monitoring System
