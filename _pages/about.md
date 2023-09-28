@@ -24,7 +24,7 @@ Ongoing Research Projects
     
 Challenges
 ------
-* Annual Farm Robotics Challenge
+* [Annual Farm Robotics Challenge](/posts/2023/farm_robotics_challenge)
   * Team Leader. Collabrating with Dr. [Juan Villacrés](https://www.linkedin.com/in/juan-villacrés-054b71169/) and Dr. [Guilherme De Moura Araujo](https://www.linkedin.com/in/guilhermedemouraa/) on Supervising.
   * [Grand Prize Winner](https://ucanr.edu/News/?routeName=newsstory&postnum=57108) among National-wide Universities and Colleges.
   * Brief Intro:
