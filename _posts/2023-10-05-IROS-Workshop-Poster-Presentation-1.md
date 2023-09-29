@@ -10,6 +10,10 @@ permalink: iros_2023_worshop/fruit_distribution_study
 
 ### Topic: Fusion-Driven Tree Reconstruction and Fruit Localization_Advancing Precision in Agriculture
 
+
+##### Fruit distribution is pivotal in shaping the future of both agriculture and agricultural robotics, paving the way for a streamlined supply chain. This study introduces an innovative methodology that harnesses the synergy of RGB imagery, LiDAR, and IMU data, to achieve intricate tree reconstructions and the pinpoint localization of fruits.
+
+
 <img src="../images/Post_Images/2023/IROS_2023/Fruit_Distribution_Study.png"
      alt="Fruit_Distribution_Study.png"
      style="float: left; margin-bottom: 25px;" />
