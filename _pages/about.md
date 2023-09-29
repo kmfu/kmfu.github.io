@@ -23,7 +23,7 @@ Ongoing Research Projects
   * We are using YOLOv8 to detect walnuts, trained on a enriched dataset that includes both real and synthetic RGB and NIR images. The challenge lies in accurately distinguishing between walnuts and leaves due to their similar shapes, colors, and textures.
     
 Challenges
-------
+-----
 * Annual Farm Robotics Challenge [[More Information](farm_robotics_challenge_2023)]
   * Team Leader. Collabrating with Dr. [Juan Villacrés](https://www.linkedin.com/in/juan-villacrés-054b71169/) and Dr. [Guilherme De Moura Araujo](https://www.linkedin.com/in/guilhermedemouraa/) on Supervising.
   * [Grand Prize Winner](https://ucanr.edu/News/?routeName=newsstory&postnum=57108) among National-wide Universities and Colleges.
