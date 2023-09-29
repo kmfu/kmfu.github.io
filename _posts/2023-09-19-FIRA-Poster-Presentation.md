@@ -1,5 +1,5 @@
 ---
-title: '2023 Poster Presentation at International Forum for Agricultural Robotics (FIRA USA)'
+title: 'Poster Presentation at International Forum for Agricultural Robotics (FIRA USA)'
 date: 2023-09-19
 permalink: fira_2023
 # tags:

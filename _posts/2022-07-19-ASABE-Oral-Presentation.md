@@ -1,5 +1,5 @@
 ---
-title: '2022 Oral Presentation at ASABE Annual International Meeting'
+title: 'Oral Presentation at ASABE Annual International Meeting'
 date: 2022-07-19
 permalink: asabe_2022
 # tags:

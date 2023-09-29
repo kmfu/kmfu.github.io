@@ -1,5 +1,5 @@
 ---
-title: '2022 "Inceptio-Tsinghua AIR Cup” Autonomous Driving Challenge'
+title: '"Inceptio-Tsinghua AIR Cup” Autonomous Driving Challenge'
 date: 2022-09-29
 permalink: autonomous_driving_challenge_2022
 # tags:
