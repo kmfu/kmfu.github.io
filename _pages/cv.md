@@ -9,13 +9,13 @@ redirect_from:
 <!-- You can download a PDF copy of my resume [here](../files/KaimingFu_Resume.pdf).-->
 
 Education
-------
+-----
 * Ph.D. in Electrical and Computer Engineering, University of California, Davis, 2024 (expected)
 * Double-Major M.S. in Statistic, University of California, Davis, 2022
 * M.S. in Mechanical Engineering, Purdue University, West Lafayette, 2019
 
 Research experience
-------
+-----
 * Simulation Design and Optimization of Agricultural Robotics
   * Designed a robot-tree-fruit simulation system, including the development of digital models and the research on object interference.
   * Employed RGB imagery, LiDAR, and IMU data for accurate fruit canopy localization, enhancing simulation realism.
@@ -27,7 +27,7 @@ Research experience
   * Improved F1 score with synthetic data: RGB detection (0.806); NIR detection(0.745); Multispectral detection(0.863).
 
 Projects
-------
+-----
 * Annual Farm Robotics Challenge
   * Team Leader. Grand Prize Winner among National-wide Universities and Colleges
     * Designed a real-time harvesting assistant robot that autonomously follows human operators and transports harvested crops to storage, eliminating manual tractor transport.
@@ -44,7 +44,7 @@ Projects
     * Improved F1 score to 0.874 using a UNet-ResNet generator and a DenseNet discriminator.
 
 Skills
-------
+-----
 * Programming Languages: C++, Python, R, Matlab.
 * Tools:
   * CUDA
