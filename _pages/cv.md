@@ -24,7 +24,7 @@ Research experience
   * Created a dataset of RGB and NIR walnut images, manually annotated, and sourced from a multispectral camera.
   * Generated synthetic images to enhance the walnut image set, addressing limitations arising from specific lighting conditions.
   * Developed a YOLOv8 model for crop detection, leveraging multispectral imagery to surpass the constraints of using only RGB images.
-  * Improved F1 score with synthetic data: RGB detection (0.806); NIR detection(0.745); Multispectral detection(0.863).
+  * Improved F1 score with synthetic data: RGB detection (11.4%); NIR detection(19.9%); Multispectral detection(13.8%).
 
 Projects
 -----
