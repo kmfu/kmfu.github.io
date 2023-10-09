@@ -21,3 +21,13 @@ Fruit distribution is pivotal in shaping the future of both agriculture and agri
 
 
 
+<img src="../images/Post_Images/2023/IROS_2023/Presentation_on_Fruit_Distribution.jpg"
+     alt="Synthetic_Data_Study.png"
+     style="float: left; margin-bottom: 25px;" />
+
+
+
+
+<img src="../images/Post_Images/2023/IROS_2023/IEEE_Report.png"
+     alt="Synthetic_Data_Study.png"
+     style="float: left; margin-bottom: 25px;" />

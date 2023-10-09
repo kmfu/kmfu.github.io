@@ -21,3 +21,13 @@ The accurate identification of walnuts within orchards brings forth a plethora o
 
 
 
+<img src="../images/Post_Images/2023/IROS_2023/Presentation_on_Synthetic_Data.jpg"
+     alt="Synthetic_Data_Study.png"
+     style="float: left; margin-bottom: 25px;" />
+
+
+
+
+<img src="../images/Post_Images/2023/IROS_2023/IEEE_Report.png"
+     alt="Synthetic_Data_Study.png"
+     style="float: left; margin-bottom: 25px;" />
