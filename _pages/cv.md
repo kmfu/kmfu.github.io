@@ -19,7 +19,7 @@ Research experience
 * Simulation Design and Optimization of Agricultural Robotics
   * Designed a robot-tree-fruit simulation system, including the development of digital models and the research on object interference.
   * Employed RGB imagery, LiDAR, and IMU data for accurate fruit canopy localization, enhancing simulation realism.
-  * Developed a dynamic harvesting system based on visible fruit distributions obtained from the in-field data acquisition.
+  * Optimized a planning algorithm for dynamic system utilizing visible fruit distributions derived from in-field computer vision data acquisition.
 * Crop Counting Through Deep Learning Enhanced By Synthetic Images
   * Created a dataset of RGB and NIR walnut images, manually annotated, and sourced from a multispectral camera.
   * Generated synthetic images to enhance the walnut image set, addressing limitations arising from specific lighting conditions.

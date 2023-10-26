@@ -1,2 +1,12 @@
 _site/
 
+.DS_Store
+_posts/.DS_Store
+assets/.DS_Store
+favicon.ico/.DS_Store
+files/.DS_Store
+images/Achieve/.DS_Store
+images/Post_Images/.DS_Store
+images/Post_Images/2022/.DS_Store
+images/Post_Images/2023/.DS_Store
+images/Post_Images/2023/IROS_2023/.DS_Store
