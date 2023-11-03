@@ -22,9 +22,9 @@ Research experience
   * Utilized YOLOv5 on the augmented datasets, achieving detection accuracy improvements of 11.4% in RGB  images and 18.9% in NIR images.
 
 * Integrated 2D and 3D Fruit Mapping for Optimized Harvesting Simulation and Planning
- * Analyzed 3D fruit distribution using a fusion of sensors (IMU, LiDAR, thermal camera) combined with SLAM techniques for precise localization of harvestable areas, facilitating GPS-independent harvesting planning.
- * Unified high-resolution LiDAR data and radiative ray tracing methods to reconstruct detailed tree models, overlaying both actual and synthetic fruit distributions for comprehensive 2D and 3D mapping.
- * Merged comprehensive datasets capturing fruit distribution through sensor fusion with detailed tree architecture from high-resolution LiDAR, enhancing neural network training for the generation of precise synthetic fruit distribution models.
+  * Analyzed 3D fruit distribution using a fusion of sensors (IMU, LiDAR, thermal camera) combined with SLAM techniques for precise localization of harvestable areas, facilitating GPS-independent harvesting planning.
+  * Unified high-resolution LiDAR data and radiative ray tracing methods to reconstruct detailed tree models, overlaying both actual and synthetic fruit distributions for comprehensive 2D and 3D mapping.
+  * Merged comprehensive datasets capturing fruit distribution through sensor fusion with detailed tree architecture from high-resolution LiDAR, enhancing neural network training for the generation of precise synthetic fruit distribution models.
 
 * Simulation Design and Optimization of Agricultural Robotics
   * Established a comprehensive robot-tree-fruit simulation environment by creating precise digital models to accurately represent real-world agricultural scenarios.
