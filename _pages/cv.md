@@ -14,7 +14,7 @@ Education
 * Double-Major M.S. in Statistic, University of California, Davis, 2022
 * M.S. in Mechanical Engineering, Purdue University, West Lafayette, 2019
 
-Research experience
+Research Experience
 -----
 * Crop Counting Through Deep Learning Enhanced By Synthetic Images
   * Created a dataset of RGB and NIR walnut images, manually annotated, and sourced from a multispectral camera.
