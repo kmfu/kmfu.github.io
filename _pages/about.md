@@ -12,7 +12,7 @@ Biography
 -----
 Kaiming (Kimi) Fu is a fifth-year doctoral student in the Electrical and Computer Engineering at the University of California, Davis. He is working with guidance from Prof. [Stavros G. Vougioukas](https://faculty.engineering.ucdavis.edu/vougioukas/research/lab-members/) and Prof. [Brian N. Bailey](https://baileylab.ucdavis.edu/people/index.html). Before joining UC Davis, he received the M.S. degree in Mechanical Engineering from Purdue University in West Lafayette, Indiana. His research is interdisciplinary, incorporating his expertise in engineering and computer science to focus on machine learning, computer vision and agricultural robotics. His research interests include:
 
-* Transformer-Enhanced Multispectral and Synthetic Imaging for Tiny Object Detection.
+* Multispectral and Synthetic Imaging for Tiny Object Detection.
 * Integrated 2D and 3D Fruit Mapping for Optimized Harvesting Simulation and Planning.
 * Simulation Design and Optimization for Robotics, along with Conducting Interference Analysis using CUDA and Voxel Technology.
 * Exploring Diverse Applications of [Helios](https://baileylab.ucdavis.edu/software/helios/index.html) (A Versatile Modeling Framework).
@@ -20,7 +20,7 @@ Kaiming (Kimi) Fu is a fifth-year doctoral student in the Electrical and Compute
 Ongoing Research Projects
 -----
 * Walnut Detection Through Deep Learning Enhanced by Multispectral Synthetic Images
-  * We are using YOLOv8 to detect walnuts, trained on a enriched dataset that includes both real and synthetic RGB and NIR images. The challenge lies in accurately distinguishing between walnuts and leaves due to their similar shapes, colors, and textures.
+  * We are using YOLOv5 to detect walnuts, trained on a enriched dataset that includes both real and synthetic RGB and NIR images. The challenge lies in accurately distinguishing between walnuts and leaves due to their similar shapes, colors, and textures.
 
 * Model-based Design of Mechanized Orchard-harvesting Systems
   * We are currently building model-based design tools to enable researchers and developers to investigate the interrelationships among orchard layout, tree canopy geometry and spatial fruit distribution, harvester design, and worker activities. Such tools can accelerate the development of next-generation orchard mechanization and automation systems.
