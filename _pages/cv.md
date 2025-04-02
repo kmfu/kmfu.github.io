@@ -10,26 +10,8 @@ redirect_from:
 
 Education
 -----
-* Ph.D. in Electrical and Computer Engineering, University of California, Davis, 2024 (expected)
-* Double-Major M.S. in Statistic, University of California, Davis, 2022
-* M.S. in Mechanical Engineering, Purdue University, West Lafayette, 2019
-
-Research Experience
------
-* Crop Counting Through Deep Learning Enhanced By Synthetic Images
-  * Created a dataset of RGB and NIR walnut images, manually annotated, and sourced from a multispectral camera.
-  * Enhanced walnut detection algorithms by generating synthetic images (RGB and NIR) with the based on radiation model in Helios, using reverse ray-tracing to accurately label walnuts.
-  * Utilized YOLOv5 on the augmented datasets, achieving detection accuracy improvements of 11.4% in RGB  images and 18.9% in NIR images.
-
-* Integrated 2D and 3D Fruit Mapping for Optimized Harvesting Simulation and Planning
-  * Analyzed 3D fruit distribution using a fusion of sensors (IMU, LiDAR, thermal camera) combined with SLAM techniques for precise localization of harvestable areas, facilitating GPS-independent harvesting planning.
-  * Unified high-resolution LiDAR data and radiative ray tracing methods to reconstruct detailed tree models, overlaying both actual and synthetic fruit distributions for comprehensive 2D and 3D mapping.
-  * Merged comprehensive datasets capturing fruit distribution through sensor fusion with detailed tree architecture from high-resolution LiDAR, enhancing neural network training for the generation of precise synthetic fruit distribution models.
-
-* Simulation Design and Optimization of Agricultural Robotics
-  * Established a comprehensive robot-tree-fruit simulation environment by creating precise digital models to accurately represent real-world agricultural scenarios.
-  * Conducted an interference study using voxel-based modeling accelerated by CUDA, enabling the evaluation and enhancement of harvester design through fruit collection efficiency metrics.
-  * Optimized a dynamic planning algorithm that leverages visible fruit distribution data, obtained from in-field computer vision systems, to inform and refine the robotic harvesting strategy.
+* Ph.D. in Electrical and Computer Engineering, University of California, Davis
+* Double-Major M.S. in Statistic, University of California, Davis
 
 
 Projects
@@ -49,14 +31,4 @@ Projects
     * Preprocessed imbalanced dataset using a data sampler, employed ResNet50 as the baseline, achieving an F1 score of 0.70.
     * Implemented a Generative Data Augmentation model for image augmentation and training dataset balance.
     * Improved F1 score to 0.874 using a UNet-ResNet generator and a DenseNet discriminator.
-
-Skills
------
-* Programming Languages: C++, Python, R, Matlab.
-* Tools:
-  * CUDA
-  * Pytorch
-  * Scikit-Learn
-  * TensorFlow
-  * Neural Networks (YOLO, CNN, Fast RCNN, Faster RCNN, ResNet)
 
