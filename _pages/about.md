@@ -15,7 +15,6 @@ Kaiming (Kimi) Fu is a doctoral student in the Electrical and Computer Engineeri
 * Multispectral and Synthetic Imaging for Tiny Object Detection.
 * Integrated 2D and 3D Fruit Mapping for Optimized Harvesting Simulation and Planning.
 * Simulation Design and Optimization for Robotics, along with Conducting Interference Analysis using CUDA and Voxel Technology.
-* Exploring Diverse Applications of [Helios](https://baileylab.ucdavis.edu/software/helios/index.html) (A Versatile Modeling Framework).
     
 Challenges
 -----
