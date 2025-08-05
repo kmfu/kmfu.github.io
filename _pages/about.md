@@ -10,11 +10,7 @@ redirect_from:
 
 Biography
 -----
-Kaiming (Kimi) Fu is a doctoral student in the Electrical and Computer Engineering at the University of California, Davis. He is working with guidance from Prof. [Stavros G. Vougioukas](https://faculty.engineering.ucdavis.edu/vougioukas/research/lab-members/) and Prof. [Brian N. Bailey](https://baileylab.ucdavis.edu/people/index.html). His research is interdisciplinary, incorporating his expertise in engineering and computer science to focus on machine learning, computer vision and robotics. His research interests include:
-
-* Multispectral and Synthetic Imaging for Tiny Object Detection.
-* Integrated 2D and 3D Fruit Mapping for Optimized Harvesting Simulation and Planning.
-* Simulation Design and Optimization for Robotics, along with Conducting Interference Analysis using CUDA and Voxel Technology.
+Kaiming (Kimi) Fu earned his Ph.D. in Electrical and Computer Engineering from the University of California, Davis, where he worked under the guidance of Prof. [Stavros G. Vougioukas](https://faculty.engineering.ucdavis.edu/vougioukas/research/lab-members/) and Prof. [Brian N. Bailey](https://baileylab.ucdavis.edu/people/index.html). His research was interdisciplinary, combining expertise in engineering and computer science to focus on machine learning, computer vision, and robotics. (Note: This page is no longer actively updated.)
     
 Challenges
 -----
