@@ -11,16 +11,4 @@ redirect_from:
 Biography
 -----
 Kaiming (Kimi) Fu earned his Ph.D. in Electrical and Computer Engineering from the University of California, Davis, where he worked under the guidance of Prof. [Stavros G. Vougioukas](https://faculty.engineering.ucdavis.edu/vougioukas/research/lab-members/) and Prof. [Brian N. Bailey](https://baileylab.ucdavis.edu/people/index.html). His research was interdisciplinary, combining expertise in engineering and computer science to focus on machine learning, computer vision, and robotics. (Note: This page is no longer actively updated.)
-    
-Challenges
------
-* Annual Farm Robotics Challenge [[More Information](farm_robotics_challenge_2023)]
-  * Team Leader. Collaborating with Dr. [Juan Villacrés](https://www.linkedin.com/in/juan-villacrés-054b71169/) and Dr. [Guilherme De Moura Araujo](https://www.linkedin.com/in/guilhermedemouraa/) on Supervising.
-  * [Grand Prize Winner](https://ucanr.edu/News/?routeName=newsstory&postnum=57108) among National-wide Universities and Colleges.
-  * Brief Intro: 
-    * Farm Robotics Challenge is open to any university or college in the U.S. Student teams will be asked to address a production farming topic on any crop or size of farm, with a desired focus on small farms, by automating an essential farm-related task using the [farm-ng](https://farm-ng.com) robotics platform.
 
-* "Inceptio-Tsinghua AIR Cup” Autonomous Driving Challenge [[More Information](autonomous_driving_challenge_2022)]
-  * [1st Prize Winner](https://min.news/en/tech/d0f74264edf0ba9c211e13b5dcb468f8.html) among 1067 teams.
-  * Brief Intro: 
-    * Autonomous Driving Challenge provides scenarios and data for high-speed heavy trucks and complex urban roads, while the data for the competition questions are all derived from real scenarios. The goal is to develope an efficient decision-making algorithm for self-driving semi-trucks and sedans to navigate complex urban and highway environments collision-free.
