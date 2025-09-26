@@ -118,9 +118,13 @@ author:
 
 
 # Reading Files
+collections_dir: content
+data_dir: config/data
+includes_dir: design/includes
+layouts_dir: design/layouts
 include:
   - .htaccess
-  - _pages
+  - content/_pages
   - files
 exclude:
   - "*.sublime-project"
@@ -139,7 +143,7 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
-  - config
+  - tools
   - gulpfile.js
   - log
   - node_modules
@@ -191,7 +195,7 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
+  # content/_posts
   - scope:
       path: ""
       type: posts
@@ -202,14 +206,14 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # content/_pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # content/_teaching
   - scope:
       path: ""
       type: teaching
@@ -218,7 +222,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # content/_publications
   - scope:
       path: ""
       type: publications
@@ -227,7 +231,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # content/_portfolio
   - scope:
       path: ""
       type: portfolio
@@ -236,7 +240,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # content/_talks
   - scope:
       path: ""
       type: talks
@@ -247,7 +251,7 @@ defaults:
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
+  sass_dir: design/sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
