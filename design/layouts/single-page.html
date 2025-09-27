@@ -1,0 +1,249 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="single-page no-js">
+  <head>
+    {% include head.html %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="single-page">
+    <div class="page-grid">
+      <aside class="sidebar" aria-label="Profile navigation">
+        <button class="sidebar__toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="sidebar__profile">
+          <div class="sidebar__avatar">
+            <img src="{{ site.author.avatar | default: '/images/profile.png' | relative_url }}" alt="Portrait of {{ site.author.name | default: site.name }}">
+          </div>
+          <div class="sidebar__identity">
+            <span class="sidebar__name">{{ site.author.name | default: site.name }}</span>
+            {% if site.author.role %}
+            <span class="sidebar__role">{{ site.author.role }}</span>
+            {% endif %}
+            {% if site.tagline %}
+            <span class="sidebar__tagline">{{ site.tagline }}</span>
+            {% endif %}
+          </div>
+        </div>
+        {% if site.author.resume_url %}
+        <a class="sidebar__cta" href="{{ site.author.resume_url | relative_url }}" target="_blank" rel="noopener">
+          Download CV
+        </a>
+        {% endif %}
+        <nav class="sidebar__nav">
+          <a href="#about">About</a>
+          <a href="#highlights">Highlights</a>
+          <a href="#publications">Publications</a>
+          <a href="#talks">Talks</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="sidebar__contact">
+          <ul>
+            {% if site.author.email %}
+            <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+            {% endif %}
+            {% if site.author.github %}
+            <li><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a></li>
+            {% endif %}
+            {% if site.author.linkedin %}
+            <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
+            {% endif %}
+            {% if site.author.googlescholar %}
+            <li><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </aside>
+      <main class="content" id="main-content">
+        <section id="about" class="section">
+          <header class="section__header">
+            <h1>About</h1>
+          </header>
+          <div class="section__body">
+            {% if site.author.bio %}
+            <div class="section__lead">
+              {{ site.author.bio | markdownify }}
+            </div>
+            {% endif %}
+            {% if site.author.interests %}
+            <div class="chip-group" aria-label="Research interests">
+              {% for interest in site.author.interests %}
+              <span class="chip">{{ interest }}</span>
+              {% endfor %}
+            </div>
+            {% endif %}
+            <div class="metrics" role="list" aria-label="Portfolio metrics">
+              {% assign post_count = site.posts | size %}
+              {% assign publication_count = site.publications | size %}
+              {% assign talk_count = site.talks | size %}
+              <div class="metric" role="listitem">
+                <span class="metric__value">{{ post_count }}</span>
+                <span class="metric__label">Project updates</span>
+              </div>
+              <div class="metric" role="listitem">
+                <span class="metric__value">{{ publication_count }}</span>
+                <span class="metric__label">Publications</span>
+              </div>
+              <div class="metric" role="listitem">
+                <span class="metric__value">{{ talk_count }}</span>
+                <span class="metric__label">Talks &amp; workshops</span>
+              </div>
+            </div>
+            {% if site.author.education %}
+            <div class="timeline" aria-label="Education">
+              <h2>Education</h2>
+              <ul>
+                {% for education in site.author.education %}
+                <li>
+                  <span class="timeline__title">{{ education.degree }}</span>
+                  <span class="timeline__meta">{{ education.institution }}{% if education.year %} · {{ education.year }}{% endif %}</span>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+          </div>
+        </section>
+
+        <section id="highlights" class="section">
+          <header class="section__header">
+            <h2>Recent Highlights</h2>
+            {% if site.posts and site.posts != empty %}
+            <p class="section__subtitle">Selected field robotics and autonomy projects.</p>
+            {% endif %}
+          </header>
+          <div class="section__body">
+            {% assign posts = site.posts | sort: 'date' | reverse %}
+            {% if posts and posts != empty %}
+            <div class="card-grid">
+              {% for post in posts limit: 4 %}
+              <article class="card">
+                <p class="card__meta">{{ post.date | date: "%b %d, %Y" }}</p>
+                <h3 class="card__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                {% if post.excerpt %}
+                <p class="card__excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                {% endif %}
+                <a class="card__link" href="{{ post.url | relative_url }}">Read more</a>
+              </article>
+              {% endfor %}
+            </div>
+            {% else %}
+            <p class="empty-state">Project updates will appear here once posts are published.</p>
+            {% endif %}
+          </div>
+        </section>
+
+        <section id="publications" class="section">
+          <header class="section__header">
+            <h2>Publications</h2>
+          </header>
+          <div class="section__body">
+            {% assign publications = site.publications | sort: 'date' | reverse %}
+            {% if publications and publications != empty %}
+            <ul class="list">
+              {% for item in publications %}
+              <li class="list__item">
+                <h3 class="list__title">{{ item.title }}</h3>
+                <p class="list__meta">{{ item.venue }}{% if item.date %} · {{ item.date | date: "%Y" }}{% endif %}</p>
+                {% if item.excerpt %}
+                <p class="list__excerpt">{{ item.excerpt | strip_html }}</p>
+                {% endif %}
+                <div class="list__links">
+                  <a href="{{ item.url | relative_url }}">View details</a>
+                  {% if item.paperurl %}
+                  <a href="{{ item.paperurl }}" target="_blank" rel="noopener">Download</a>
+                  {% endif %}
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
+            {% else %}
+            <p class="empty-state">Add publications by dropping markdown files into <code>content/_publications/</code>.</p>
+            {% endif %}
+          </div>
+        </section>
+
+        <section id="talks" class="section">
+          <header class="section__header">
+            <h2>Talks &amp; Workshops</h2>
+          </header>
+          <div class="section__body">
+            {% assign talks = site.talks | sort: 'date' | reverse %}
+            {% if talks and talks != empty %}
+            <ul class="list">
+              {% for item in talks %}
+              <li class="list__item">
+                <h3 class="list__title">{{ item.title }}</h3>
+                <p class="list__meta">{{ item.date | date: "%b %Y" }}{% if item.location %} · {{ item.location }}{% endif %}</p>
+                {% if item.excerpt %}
+                <p class="list__excerpt">{{ item.excerpt | strip_html }}</p>
+                {% endif %}
+                <a class="list__link" href="{{ item.url | relative_url }}">Session details</a>
+              </li>
+              {% endfor %}
+            </ul>
+            {% else %}
+            <p class="empty-state">Speaking engagements will appear here once entries are added.</p>
+            {% endif %}
+            <div class="map-embed">
+              <iframe title="Talk locations" src="{{ '/talkmap/map.html' | relative_url }}" loading="lazy"></iframe>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section">
+          <header class="section__header">
+            <h2>Contact</h2>
+          </header>
+          <div class="section__body contact">
+            <p>Interested in collaborations or learning more about current projects? Reach out via the links below.</p>
+            <ul class="contact__list">
+              {% if site.author.email %}
+              <li><span>Email</span><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+              {% endif %}
+              {% if site.author.github %}
+              <li><span>GitHub</span><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">github.com/{{ site.author.github }}</a></li>
+              {% endif %}
+              {% if site.author.linkedin %}
+              <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">linkedin.com/in/{{ site.author.linkedin }}</a></li>
+              {% endif %}
+              {% if site.author.researchgate %}
+              <li><span>ResearchGate</span><a href="{{ site.author.researchgate }}" target="_blank" rel="noopener">Profile</a></li>
+              {% endif %}
+            </ul>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}. Built with Jekyll.</p>
+        </footer>
+      </main>
+    </div>
+
+    <script>
+      (function() {
+        const toggle = document.querySelector('.sidebar__toggle');
+        if (!toggle) return;
+        toggle.addEventListener('click', function() {
+          document.body.classList.toggle('sidebar-open');
+        });
+        const links = document.querySelectorAll('.sidebar__nav a');
+        links.forEach(function(link) {
+          link.addEventListener('click', function() {
+            document.body.classList.remove('sidebar-open');
+          });
+        });
+      })();
+    </script>
+
+    {% include analytics.html %}
+  </body>
+</html>

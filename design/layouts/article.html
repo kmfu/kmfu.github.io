@@ -1,0 +1,60 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="article-page no-js">
+  <head>
+    {% include head.html %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="article-page">
+    <div class="article-shell">
+      <header class="article-header">
+        <a class="article-home" href="{{ '/' | relative_url }}">← Back to overview</a>
+        {% if page.title %}
+        <h1 class="article-title">{{ page.title }}</h1>
+        {% endif %}
+        <div class="article-meta">
+          {% if page.date %}
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+          {% endif %}
+          {% if page.venue %}
+          <span>· {{ page.venue }}</span>
+          {% endif %}
+          {% if page.location %}
+          <span>· {{ page.location }}</span>
+          {% endif %}
+        </div>
+        {% if page.citation %}
+        <p class="article-citation">Recommended citation: {{ page.citation }}</p>
+        {% endif %}
+        {% if page.paperurl %}
+        <a class="article-action" href="{{ page.paperurl }}" target="_blank" rel="noopener">Download paper</a>
+        {% endif %}
+      </header>
+
+      <article class="article-content" itemprop="text">
+        {{ content }}
+      </article>
+
+      {% if page.tags %}
+      <div class="article-tags">
+        <strong>Tags:</strong>
+        {% for tag in page.tags %}
+        <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <footer class="article-footer">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}. </p>
+      </footer>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
