@@ -12,91 +12,45 @@ layout: compress
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="shell">
-      <!-- Sidebar navigation housed on the left -->
-      <aside class="sidebar" aria-label="Profile navigation">
-        <button class="sidebar__toggle" aria-label="Toggle navigation">
-          <span></span><span></span><span></span>
-        </button>
-        <div class="sidebar__profile">
-          <div class="sidebar__avatar">
+    <div class="page">
+      <header class="site-header" id="top">
+        <nav class="site-nav" aria-label="Main navigation">
+          <a class="site-logo" href="#top">{{ site.author.name | default: site.title }}</a>
+          <button class="site-nav__toggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+          </button>
+          <div class="site-nav__links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+        <div class="hero">
+          <div class="hero__text">
+            <p class="hero__eyebrow">Hello, I'm</p>
+            <h1 class="hero__title">{{ site.author.name | default: site.title }}</h1>
+            {% if site.tagline %}
+            <p class="hero__tagline">{{ site.tagline }}</p>
+            {% endif %}
+            {% if site.author.bio %}
+            <p class="hero__lead">{{ site.author.bio | strip_newlines }}</p>
+            {% endif %}
+            <div class="hero__actions">
+            {% if site.author.resume_url %}
+            <span class="btn btn--disabled" aria-disabled="true">CV not available right now</span>
+            {% endif %}
+              {% if site.author.email %}
+              <a class="btn btn--ghost" href="mailto:{{ site.author.email }}">Email me</a>
+              {% endif %}
+            </div>
+          </div>
+          <div class="hero__photo">
             <img src="{{ site.author.avatar | relative_url }}" alt="Portrait of {{ site.author.name | default: site.title }}">
           </div>
-          <div class="sidebar__identity">
-            <span class="sidebar__name">{{ site.author.name | default: site.title }}</span>
-            {% if site.tagline %}
-            <span class="sidebar__tagline">{{ site.tagline }}</span>
-            {% endif %}
-          </div>
         </div>
-        <div class="sidebar__bio">
-          {% if site.author.bio %}
-          <p>{{ site.author.bio | strip_newlines }}</p>
-          {% endif %}
-        </div>
-        <div class="sidebar__actions">
-          {% if site.author.resume_url %}
-          <span class="btn btn--disabled" aria-disabled="true">CV not available right now</span>
-          {% endif %}
-          {% if site.author.email %}
-          <a class="btn btn--ghost" href="mailto:{{ site.author.email }}">Email me</a>
-          {% endif %}
-        </div>
-        <nav class="sidebar__nav">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#publications">Publications</a>
-          <a href="#talks">Talks</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <div class="sidebar__contact">
-          <ul>
-            {% if site.author.email %}
-            <li><span>Email</span> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-            {% endif %}
-            {% if site.author.github %}
-            <li><span>GitHub</span> <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">{{ site.author.github }}</a></li>
-            {% endif %}
-            {% if site.author.linkedin %}
-            <li><span>LinkedIn</span> <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">{{ site.author.linkedin }}</a></li>
-            {% endif %}
-            {% if site.author.googlescholar %}
-            <li><span>Scholar</span> <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">View citations</a></li>
-            {% endif %}
-          </ul>
-        </div>
-      </aside>
+      </header>
 
-      <!-- Main scrollable content on the right -->
-      <main class="content">
-        <section id="about" class="section section--split">
-          <div>
-            <h2>About</h2>
-            <p>{{ site.description }}</p>
-            {% if site.author.interests %}
-            <h3>Focus Areas</h3>
-            <ul class="bullets">
-              {% for interest in site.author.interests %}
-              <li>{{ interest }}</li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-          </div>
-          {% if site.author.education %}
-          <div>
-            <h3>Education</h3>
-            <ul class="timeline">
-              {% for edu in site.author.education %}
-              <li>
-                <strong>{{ edu.degree }}</strong>
-                <span>{{ edu.institution }}{% if edu.year %} · {{ edu.year }}{% endif %}</span>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-          {% endif %}
-        </section>
-
+      <main>
         <section id="projects" class="section">
           <div class="section__header">
             <h2>Featured Projects</h2>
@@ -165,6 +119,34 @@ layout: compress
           {% endif %}
         </section>
 
+        <section id="about" class="section section--split">
+          <div>
+            <h2>About</h2>
+            <p>{{ site.description }}</p>
+            {% if site.author.interests %}
+            <h3>Focus Areas</h3>
+            <ul class="bullets">
+              {% for interest in site.author.interests %}
+              <li>{{ interest }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+          {% if site.author.education %}
+          <div>
+            <h3>Education</h3>
+            <ul class="timeline">
+              {% for edu in site.author.education %}
+              <li>
+                <strong>{{ edu.degree }}</strong>
+                <span>{{ edu.institution }}{% if edu.year %} · {{ edu.year }}{% endif %}</span>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </section>
+
         <section id="contact" class="section">
           <div class="section__header">
             <h2>Contact</h2>
@@ -197,24 +179,24 @@ layout: compress
             {% endif %}
           </div>
         </section>
-
-        <footer class="site-footer">
-          <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}. Built with Jekyll and the quick-portfolio layout.</p>
-        </footer>
       </main>
+
+      <footer class="site-footer">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}. Built with Jekyll and the quick-portfolio layout.</p>
+      </footer>
     </div>
 
     <script>
       (function(){
-        const toggle = document.querySelector('.sidebar__toggle');
-        const sidebar = document.querySelector('.sidebar');
-        if (!toggle || !sidebar) return;
+        const toggle = document.querySelector('.site-nav__toggle');
+        const links = document.querySelector('.site-nav__links');
+        if (!toggle || !links) return;
         toggle.addEventListener('click', function(){
-          sidebar.classList.toggle('is-open');
+          links.classList.toggle('is-open');
         });
-        sidebar.querySelectorAll('a').forEach(function(link){
+        links.querySelectorAll('a').forEach(function(link){
           link.addEventListener('click', function(){
-            sidebar.classList.remove('is-open');
+            links.classList.remove('is-open');
           });
         });
       })();
