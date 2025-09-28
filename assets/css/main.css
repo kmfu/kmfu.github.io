@@ -161,6 +161,13 @@ a:focus {
   box-shadow: none;
 }
 
+.btn--disabled {
+  background: rgba(100, 116, 139, 0.2);
+  color: var(--muted);
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
 .hero__photo {
   width: 200px;
   aspect-ratio: 1/1;
@@ -411,5 +418,10 @@ main {
   .contact-card {
     border-color: rgba(129, 140, 248, 0.4);
     background: rgba(129, 140, 248, 0.12);
+  }
+
+  .btn--disabled {
+    background: rgba(165, 180, 252, 0.18);
+    color: rgba(203, 213, 225, 0.85);
   }
 }
