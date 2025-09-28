@@ -1,0 +1,208 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="portfolio no-js">
+  <head>
+    {% include head.html %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header" id="top">
+        <nav class="site-nav" aria-label="Main navigation">
+          <a class="site-logo" href="#top">{{ site.author.name | default: site.title }}</a>
+          <button class="site-nav__toggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+          </button>
+          <div class="site-nav__links">
+            <a href="#projects">Projects</a>
+            <a href="#publications">Publications</a>
+            <a href="#talks">Talks</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+        <div class="hero">
+          <div class="hero__text">
+            <p class="hero__eyebrow">Hello, I'm</p>
+            <h1 class="hero__title">{{ site.author.name | default: site.title }}</h1>
+            {% if site.tagline %}
+            <p class="hero__tagline">{{ site.tagline }}</p>
+            {% endif %}
+            {% if site.author.bio %}
+            <p class="hero__lead">{{ site.author.bio | strip_newlines }}</p>
+            {% endif %}
+            <div class="hero__actions">
+              {% if site.author.resume_url %}
+              <a class="btn" href="{{ site.author.resume_url | relative_url }}" target="_blank" rel="noopener">Download CV</a>
+              {% endif %}
+              {% if site.author.email %}
+              <a class="btn btn--ghost" href="mailto:{{ site.author.email }}">Email me</a>
+              {% endif %}
+            </div>
+          </div>
+          <div class="hero__photo">
+            <img src="{{ site.author.avatar | relative_url }}" alt="Portrait of {{ site.author.name | default: site.title }}">
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="projects" class="section">
+          <div class="section__header">
+            <h2>Featured Projects</h2>
+            <p>Recent highlights from research and competitions.</p>
+          </div>
+          {% assign posts = site.posts | sort: 'date' | reverse %}
+          {% if posts and posts != empty %}
+          <div class="card-grid">
+            {% for post in posts limit: 4 %}
+            <article class="card">
+              <p class="card__meta">{{ post.date | date: '%b %d, %Y' }}</p>
+              <h3 class="card__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              {% if post.excerpt %}
+              <p class="card__excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+              {% endif %}
+              <a class="card__link" href="{{ post.url | relative_url }}">View project</a>
+            </article>
+            {% endfor %}
+          </div>
+          {% else %}
+          <p class="empty">Project updates will appear here soon.</p>
+          {% endif %}
+        </section>
+
+        <section id="publications" class="section">
+          <div class="section__header">
+            <h2>Publications</h2>
+          </div>
+          {% assign publications = site.publications | sort: 'date' | reverse %}
+          {% if publications and publications != empty %}
+          <ul class="list">
+            {% for paper in publications %}
+            <li class="list__item">
+              <h3 class="list__title">{{ paper.title }}</h3>
+              <p class="list__meta">{{ paper.venue }}{% if paper.date %} · {{ paper.date | date: '%Y' }}{% endif %}</p>
+              {% if paper.excerpt %}<p class="list__excerpt">{{ paper.excerpt | strip_html }}</p>{% endif %}
+              <div class="list__links">
+                <a href="{{ paper.url | relative_url }}">Details</a>
+                {% if paper.paperurl %}<a href="{{ paper.paperurl }}" target="_blank" rel="noopener">Download</a>{% endif %}
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <p class="empty">Add markdown files to <code>content/_publications/</code> to showcase your papers.</p>
+          {% endif %}
+        </section>
+
+        <section id="talks" class="section">
+          <div class="section__header">
+            <h2>Talks &amp; Workshops</h2>
+          </div>
+          {% assign talks = site.talks | sort: 'date' | reverse %}
+          {% if talks and talks != empty %}
+          <ul class="list">
+            {% for talk in talks %}
+            <li class="list__item">
+              <h3 class="list__title">{{ talk.title }}</h3>
+              <p class="list__meta">{{ talk.date | date: '%b %Y' }}{% if talk.location %} · {{ talk.location }}{% endif %}</p>
+              <a class="list__link" href="{{ talk.url | relative_url }}">Session details</a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <p class="empty">Add speaking engagements to <code>content/_talks/</code> to populate this section.</p>
+          {% endif %}
+        </section>
+
+        <section id="about" class="section section--split">
+          <div>
+            <h2>About</h2>
+            <p>{{ site.description }}</p>
+            {% if site.author.interests %}
+            <h3>Focus Areas</h3>
+            <ul class="bullets">
+              {% for interest in site.author.interests %}
+              <li>{{ interest }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+          {% if site.author.education %}
+          <div>
+            <h3>Education</h3>
+            <ul class="timeline">
+              {% for edu in site.author.education %}
+              <li>
+                <strong>{{ edu.degree }}</strong>
+                <span>{{ edu.institution }}{% if edu.year %} · {{ edu.year }}{% endif %}</span>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </section>
+
+        <section id="contact" class="section">
+          <div class="section__header">
+            <h2>Contact</h2>
+            <p>Let's collaborate on the next generation of autonomous agricultural systems.</p>
+          </div>
+          <div class="contact-grid">
+            {% if site.author.email %}
+            <a class="contact-card" href="mailto:{{ site.author.email }}">
+              <span>Email</span>
+              <strong>{{ site.author.email }}</strong>
+            </a>
+            {% endif %}
+            {% if site.author.github %}
+            <a class="contact-card" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">
+              <span>GitHub</span>
+              <strong>{{ site.author.github }}</strong>
+            </a>
+            {% endif %}
+            {% if site.author.linkedin %}
+            <a class="contact-card" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">
+              <span>LinkedIn</span>
+              <strong>{{ site.author.linkedin }}</strong>
+            </a>
+            {% endif %}
+            {% if site.author.googlescholar %}
+            <a class="contact-card" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
+              <span>Google Scholar</span>
+              <strong>View citations</strong>
+            </a>
+            {% endif %}
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}. Built with Jekyll and the quick-portfolio layout.</p>
+      </footer>
+    </div>
+
+    <script>
+      (function(){
+        const toggle = document.querySelector('.site-nav__toggle');
+        const links = document.querySelector('.site-nav__links');
+        if (!toggle || !links) return;
+        toggle.addEventListener('click', function(){
+          links.classList.toggle('is-open');
+        });
+        links.querySelectorAll('a').forEach(function(link){
+          link.addEventListener('click', function(){
+            links.classList.remove('is-open');
+          });
+        });
+      })();
+    </script>
+    {% include analytics.html %}
+  </body>
+</html>
