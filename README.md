@@ -12,17 +12,7 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
 1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
 1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `tools/markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
-
-## Repository layout
-
-The site is now organized by responsibility to make maintenance easier:
-
-- `content/` — all authored content collections such as posts, pages, talks, publications, teaching, and portfolio entries.
-- `design/` — theme assets (`includes`, `layouts`, and Sass) that control presentation.
-- `config/` — YAML data used across the site (navigation, authors, UI text, etc.).
-- `tools/` — helper scripts and notebooks (markdown generators, talk map utilities) kept separate from the published site.
-- Root-level `assets/`, `images/`, and `files/` remain the primary static asset directories served with the site.
+1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
 See more info at https://academicpages.github.io/
 

@@ -7,14 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kaiming Fu"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Kaiming Fu"
-description              : &description "Robotics researcher developing intelligent systems for agriculture."
-tagline                  : "Field robotics · Machine learning · Human-centered autonomy"
+description              : &description "UC Davis"
 url                      : "https://kmfu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "kmfu/kmfu.github.io"
+repository               : "academicpages/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,24 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kaiming (Kimi) Fu"
-  role             : "Robotics Researcher"
-  avatar           : "/images/profile.png"
-  bio              : >-
-    Kaiming (Kimi) Fu earned his Ph.D. in Electrical and Computer Engineering from the University of
-    California, Davis, where he explored machine learning, computer vision, and robotics for precision
-    agriculture. His work spans multi-sensor perception, human-following field robots, and systems that
-    bridge research prototypes with deployable tools for growers.
+  # name             : "Kaiming (Kimi) Fu"
+  avatar           : "../images/profile.png"
+  bio              : # "Ph.D. Candidate"
+  employer         : # "UC, Davis"
   location         : "Davis, CA"
-  resume_url       : "/files/KaimingFu_Resume.pdf"
-  interests:
-    - Machine learning for agricultural perception
-    - Field robotics and autonomy
-    - Human-robot collaboration
-  education:
-    - degree       : "Ph.D. Electrical and Computer Engineering"
-      institution  : "University of California, Davis"
-      year         : "2023"
   googlescholar    : "https://scholar.google.com/citations?user=JL6SLsEAAAAJ&hl=en"
   researchgate     : "https://www.researchgate.net/profile/Kaiming-Fu-2"
   email            : "kmfu@ucdavis.edu"
@@ -132,13 +118,9 @@ author:
 
 
 # Reading Files
-collections_dir: content
-data_dir: config/data
-includes_dir: design/includes
-layouts_dir: design/layouts
 include:
   - .htaccess
-  - content/_pages
+  - _pages
   - files
 exclude:
   - "*.sublime-project"
@@ -157,7 +139,7 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
-  - tools
+  - config
   - gulpfile.js
   - log
   - node_modules
@@ -209,46 +191,63 @@ collections:
 
 # Defaults
 defaults:
-  # content/_posts
+  # _posts
   - scope:
       path: ""
       type: posts
     values:
-      layout: article
-  # content/_pages
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: article
-  # content/_teaching
+      layout: single
+      author_profile: true
+  # _teaching
   - scope:
       path: ""
       type: teaching
     values:
-      layout: article
-  # content/_publications
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
   - scope:
       path: ""
       type: publications
     values:
-      layout: article
-  # content/_portfolio
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
   - scope:
       path: ""
       type: portfolio
     values:
-      layout: article
-  # content/_talks
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
   - scope:
       path: ""
       type: talks
     values:
-      layout: article
+      layout: talk
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
-  sass_dir: design/sass
+  sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
